@@ -71,7 +71,7 @@ const page = () => {
         {isError && <p className="text-red-500 mt-4">{isError}</p>}
 
         {result && (
-          <div className="mt-6 grid grid-cols-3 gap-4 items-center">
+          <div className="mt-6 grid grid-cols-2 gap-4 items-center">
             <div className="flex flex-col justify-center items-center border-blue-500 border">
               <h3 className="mt-3 font-bold ">Type</h3>
               <p className="mt-2 mb-4 font-semibold"> {result.type}</p>
