@@ -54,12 +54,12 @@ const page = () => {
               type="text"
               value={ipAddress}
               onChange={(e) => setIpAddress(e.target.value)}
-              className="w-[260px] md:w-[500px] h-10 p-4 pl-12 border outline-none rounded"
+              className="w-[200px] md:w-[500px] h-10 p-4 pl-12 border outline-none rounded"
               placeholder="Enter Ip Address"
             />
           </div>
           <button
-            className="border w-full md:w-[200px] font-bold bg-blue-500 text-white rounded cursor-pointer"
+            className="border w-[200px] font-bold bg-blue-500 text-white rounded cursor-pointer"
             type="submit"
             onClick={handleIPSearch}
           >
